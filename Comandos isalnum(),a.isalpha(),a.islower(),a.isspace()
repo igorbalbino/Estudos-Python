@@ -1,0 +1,3 @@
+a=input('Digite algo: ')
+
+print('É um número: {}. É alfabetico: {}. É minusculo: {}. É espaço vazio: {}'.format(a.isalnum(),a.isalpha(),a.islower(),a.isspace()))

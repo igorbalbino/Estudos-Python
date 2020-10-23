@@ -1,0 +1,8 @@
+nome=str(input('Digite seu nome: '))
+
+n1=int(input('Digite um número: '))
+n2=int(input('Digite outro número: '))
+
+n=n1+n2
+
+print('Seu nome é: {}. O resultado da soma é: {}'.format(nome,n))
